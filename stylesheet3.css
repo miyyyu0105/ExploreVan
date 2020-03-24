@@ -1,0 +1,76 @@
+*{
+  text-decoration: none;
+  text-align: center;
+}
+
+
+body {
+  background-image: url(stars2.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: impact;
+  background: -webkit-linear-gradient(#ffd9b3, #ffa64d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  letter-spacing: 7px;
+}
+
+.entry {
+  width: 250px;
+  float: left;
+  margin: 50px;
+  height: 220px;
+  background-image: url("yellow.jpg");
+  background-position: left;
+}
+
+figure {
+  display: block;
+  width: 250px;
+  height: 200px;
+  margin: 0;
+  text-align: center;
+}
+
+figure img {
+  width: 248px;
+  height: 170px;
+
+}
+
+figcaption {
+  font-family: impact;
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 3px;
+  padding-top: 8px;
+  color: #262626;
+}
+
+p {
+  font-family: system-ui;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+footer {
+  padding-top: 50px;
+  float: right;
+}
+
+footer a:hover {
+  border-bottom: 1px solid;
+}
